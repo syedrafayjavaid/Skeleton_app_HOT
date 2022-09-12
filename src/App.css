@@ -5,7 +5,7 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  background: #c5ff8f;
+  background: #F1C40F;
   min-height: 100vh;
   padding: 1rem;
 }
@@ -17,6 +17,7 @@
   margin: 1rem;
   flex: 0.5;
   text-align: center;
+  background: #E67E22 !important;
   justify-content: center;
   background: white;
   border-radius: 10px;

@@ -28,10 +28,8 @@ export default function App() {
 
   return (
     <div className="App">
-
-
       <div className="button" onClick={showUsers}>
-        Show Users
+        <h>Show Users</h>
       </div>
       {isLoading === false &&
         userList.map((user) => (
@@ -110,7 +108,7 @@ export default function App() {
             </h3>
           </div>
           <div className="card">
-            <Skeleton variant="circular" width={70} height={70} />
+            <Skeleton variant="circular" width={70} height={70} className="imageSkeleton" />
 
             <h1>
               <Skeleton />
