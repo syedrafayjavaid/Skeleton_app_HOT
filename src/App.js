@@ -110,7 +110,7 @@ export default function App() {
             </h3>
           </div>
           <div className="card">
-            <Skeleton variant="circular" width={70} height={70} className="imageSkeleton" />
+            <Skeleton variant="circular" width={70} height={70} />
 
             <h1>
               <Skeleton />
@@ -127,37 +127,4 @@ export default function App() {
     </div>
   );
 
-  // <SkeletonTheme color="#cfcfcf" highlightColor="#b4cf97">
-  //   <div className="App">
-  //     <div className="demo">
-  //       <h1>{heading || <Skeleton />}</h1>
-  //       <p>{para || <Skeleton count={3} />}</p>
-  //       {imgUrl ? (
-  //         <img src={imgUrl} width={100} />
-  //       ) : (
-  //         <Skeleton width={100} height={100} circle={true} />
-  //       )}
-  //     </div>
-
-  //     <div className="demo">
-  //       <h1>{heading || <Skeleton />}</h1>
-  //       <p>{para || <Skeleton count={3} />}</p>
-  //       {imgUrl ? (
-  //         <img src={imgUrl} width={100} />
-  //       ) : (
-  //         <Skeleton width={100} height={100} circle={true} />
-  //       )}
-  //     </div>
-
-  //     <div className="demo">
-  //       <h1>{heading || <Skeleton />}</h1>
-  //       <p>{para || <Skeleton count={3} />}</p>
-  //       {imgUrl ? (
-  //         <img src={imgUrl} width={100} />
-  //       ) : (
-  //         <Skeleton width={100} height={100} circle={true} />
-  //       )}
-  //     </div>
-  //   </div>
-  // </SkeletonTheme>
 }
